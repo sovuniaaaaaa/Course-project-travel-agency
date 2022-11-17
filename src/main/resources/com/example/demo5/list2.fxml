@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFFF66;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.List2">
+   <children>
+      <ImageView fitHeight="171.0" fitWidth="241.0">
+         <image>
+            <Image url="@otd2.jpg" />
+         </image>
+      </ImageView>
+      <TextArea layoutY="182.0" prefHeight="218.0" prefWidth="585.0" text="Курортный посёлок Домбай( Кавказ)&#10;Цена: 15 000руб(на 2 взрослых и 3 детей)&#10;Домбай — это современная восьмиэтажная гостиница, расположенная в центре Домбайской поляны.&#10; Номера для гостей небольшие, обставлены просто, но при этом оснащены всем необходимым.&#10; Из окон открывается завораживающий вид на горы и хвойный лес. В ресторане можно заказать &#10;завтраки и ужины в формате «шведского стола». Есть также ресторан национальной кухни, где &#10;обслуживают по меню. Гости могут позаниматься в спортивном зале, поиграть в бильярд, а в летнее &#10;время погулять по территории. Рядом находятся подъемники, различные магазины, кафе и почта. &#10;До знаменитого источника «Нарзан» 150 метров. Отель принимает туристов на отдых как зимой,&#10; так и летом. Здесь понравится непритязательным туристам, любителям зимних видов спорта и &#10;молодежи." />
+      <Button fx:id="bat6" layoutX="562.0" layoutY="14.0" mnemonicParsing="false" text="..." />
+      <Button fx:id="bat7" layoutX="408.0" layoutY="138.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="157.0" text="Заказать билеты" />
+   </children>
+</Pane>

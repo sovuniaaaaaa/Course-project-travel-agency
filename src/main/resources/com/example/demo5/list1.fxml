@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFFF66;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.List1">
+   <children>
+      <Button fx:id="bat4" layoutX="562.0" layoutY="23.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="7.0" text="..." />
+      <ImageView fitHeight="186.0" fitWidth="257.0" layoutX="14.0" layoutY="15.0">
+         <image>
+            <Image url="@otd1.jpg" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="12.0" layoutY="209.0" prefHeight="171.0" prefWidth="576.0" text="Сухум отель&quot;Олимп&quot;&#10;Цена :16000 руб( за семью из 2 взрослых и 3 детей)&#10;«Олимп» — отель категории «три звезды»,&#10; располагающийся у подножия Сухумской горы. &#10;Обратите внимание: отель работает только с&#10; апреля по декабрь. При необходимости за&#10; дополнительную плату вы можете заказать&#10; трансфер. На территории отеля есть доступ к&#10; интернету. Дети до четырех лет могут проживать&#10; бесплатно в номере с родителями. &#10;До пляжа вы можете добраться за десять минут. Вход в воду — песок и галька. За зонты от солнца и шезлонги нужно заплатить отдельно. Вечером вы можете провести время в баре, оборудованном на территории отеля. Туры в «Олимп» подойдут для экономичного отдыха." />
+      <Button fx:id="bat3" layoutX="421.0" layoutY="157.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="167.0" text="Заказать билеты" />
+   </children>
+</Pane>
